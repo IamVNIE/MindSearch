@@ -3,6 +3,8 @@ import logging
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
+from dotenv import load_dotenv
+load_dotenv(override=True)
 
 import asyncio
 import json
