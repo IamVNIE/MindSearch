@@ -1,9 +1,10 @@
+# git+https://github.com/InternLM/lagent
 duckduckgo_search
 einops
 fastapi
 gradio==5.7.1
 janus
-lagent==0.5.0rc2
+# lagent==0.5.0rc2
 matplotlib
 pydantic==2.6.4
 python-dotenv
