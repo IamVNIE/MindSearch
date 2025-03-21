@@ -1,4 +1,4 @@
-duckduckgo_search==5.3.1b1
+duckduckgo_search
 einops
 fastapi
 gradio==5.7.1
@@ -11,6 +11,8 @@ pyvis
 schemdraw
 sse-starlette
 termcolor
-transformers==4.41.0
+transformers
 uvicorn
 tenacity
+lmdeploy
+partial_json_parser

@@ -49,6 +49,10 @@ Setup FastAPI Server.
 python -m mindsearch.app --lang en --model_format internlm_server --search_engine DuckDuckGoSearch --asy 
 ```
 
+```bash
+python -m mindsearch.app --lang en --model_format gpt4 --search_engine DuckDuckGoSearch --asy 
+```
+
 - `--lang`: language of the model, `en` for English and `cn` for Chinese.
 - `--model_format`: format of the model.
   - `internlm_server` for InternLM2.5-7b-chat with local server. (InternLM2.5-7b-chat has been better optimized for Chinese.)
